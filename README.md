@@ -1,0 +1,2 @@
+# Peter-Paul-Mary
+$hListView_Right = _GUICtrlListView_Create($hGUI, "Peter|Paul|Mary", 380, 40, 250, 300, BitOR($LVS_SHOWSELALWAYS, $LVS_REPORT, $WS_BORDER)) _GUICtrlListView_SetExtendedListViewStyle($hListView_Right, BitOr($LVS_EX_FULLROWSELECT, $LVS_EX_HEADERDRAGDROP)) _GUICtrlListView_SetColumnWidth($hListView_Right, 0, 83) _GUICtrlListView_SetColumnWidth($cListView_Left, 1, 83) _GUICtrlListView_SetColumnWidth($cListView_Left, 2, 83) _GUICtrlListView_SetInsertMarkColor($hListView_Right, 0)
